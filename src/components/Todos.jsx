@@ -10,7 +10,7 @@ export const Todos = () => {
             <form onSubmit={handleCreateTodo} className="todo_form">
                 <label htmlFor="todo">Cree una tarea: </label>
                 <input name="todo" type="text" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} />
-                <button type="submit" onClick={handleCreateTodo}>Agregar</button>
+                <button type="submit" >Agregar</button>
             </form>
 
             <h2>Tareas</h2>
